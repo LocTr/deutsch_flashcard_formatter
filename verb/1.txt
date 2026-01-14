@@ -1,0 +1,53 @@
+#separator:Semicolon
+#html:true
+#tags column:4
+
+frühstücken;to have breakfast / ăn sáng;Ich frühstücke jeden Morgen um 7 Uhr.;Verb
+
+Musik hören;to listen to music / nghe nhạc;Sie hört gerne klassische Musik.;Verb
+
+kochen;to cook / nấu ăn;Meine Mutter kocht leckere Gerichte.;Verb
+
+spazieren gehen;to go for a walk / đi dạo;Wir gehen am Wochenende spazieren.;Verb
+
+aufstehen;to get up / thức dậy;Ich stehe um 6 Uhr auf.;Verb
+
+zum Deutschkurs gehen;to go to German class / đi học tiếng Đức;Er geht zweimal pro Woche zum Deutschkurs.;Verb
+
+anrufen;to call / gọi điện;Ruf mich bitte später an!;Verb
+
+fernsehen;to watch TV / xem tivi;Die Kinder sehen abends fern.;Verb
+
+essen;to eat / ăn;Wir essen um 12 Uhr Mittag.;Verb
+
+schlafen / ins Bett gehen;to sleep / to go to bed / ngủ / đi ngủ;Ich gehe um 22 Uhr ins Bett.;Verb
+
+Hausaufgaben machen;to do homework / làm bài tập;Die Schüler machen ihre Hausaufgaben.;Verb
+
+Kaffee trinken;to drink coffee / uống cà phê;Sie trinkt jeden Morgen Kaffee.;Verb
+
+chatten;to chat / trò chuyện online;Meine Freunde chatten online.;Verb
+
+zur Schule gehen;to go to school / đi học;Die Kinder gehen um 8 Uhr zur Schule.;Verb
+
+das Zimmer aufräumen;to tidy up the room / dọn dẹp phòng;Bitte räum dein Zimmer auf!;Verb
+
+Sport machen;to do sports / tập thể dục;Ich mache dreimal pro Woche Sport.;Verb
+
+das Bad putzen;to clean the bathroom / lau nhà tắm;Meine Schwester putzt das Bad.;Verb
+
+Bücher/Zeitung lesen;to read books/newspaper / đọc sách/báo;Er liest gerne Bücher.;Verb
+
+schwimmen gehen;to go swimming / đi bơi;Im Sommer gehen wir schwimmen.;Verb
+
+zur Arbeit gehen/ arbeiten;to go to work / to work / đi làm / làm việc;Sie geht zur Arbeit um 8 Uhr.;Verb
+
+Zähne putzen;to brush teeth / đánh răng;Ich putze mir morgens die Zähne.;Verb
+
+duschen;to shower / tắm;Er duscht nach dem Sport.;Verb
+
+die Kinder abholen;to pick up the children / đón trẻ em;Sie holt die Kinder von der Schule ab.;Verb
+
+nach Hause gehen;to go home / về nhà;Wir gehen nach Hause um 17 Uhr.;Verb
+
+Computerspiele spielen;to play video games / chơi trò chơi điện tử;Die Jugendlichen spielen gerne Computerspiele.;Verb

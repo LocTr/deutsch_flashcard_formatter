@@ -1,0 +1,53 @@
+#separator:Semicolon
+#html:true
+#tags column:4
+
+neu;new / mới;=/= alt - Das ist ein neues Auto.;Adjektiv
+
+alt;old / cũ;=/= neu - Dieses Haus ist sehr alt.;Adjektiv
+
+schön;beautiful / đẹp;=/= hässlich - Sie hat ein schönes Gesicht.;Adjektiv
+
+hässlich;ugly / xấu;=/= schön - Das war eine hässliche Vase.;Adjektiv
+
+sauber;clean / sạch;=/= schmutzig - Das Zimmer ist sehr sauber.;Adjektiv
+
+schmutzig;dirty / bẩn;=/= sauber - Seine Hände sind schmutzig.;Adjektiv
+
+modern;modern / hiện đại;=/= altmodisch - Sie trägt moderne Kleidung.;Adjektiv
+
+unmodern;outdated / cũ kỹ;=/= modisch - Dieser Stil ist unmodern.;Adjektiv
+
+altmodisch;old-fashioned / lỗi thời;=/= modern - Das ist eine altmodische Idee.;Adjektiv
+
+modisch;fashionable / thời trang;=/= altmodisch - Sie hat einen modischen Hut.;Adjektiv
+
+gemütlich;cozy / ấm cúng;=/= ungemütlich - Das Café ist sehr gemütlich.;Adjektiv
+
+ungemütlich;uncomfortable / khó chịu;=/= gemütlich - Das Wetter ist heute ungemütlich.;Adjektiv
+
+groß;big / lớn;=/= klein - Er ist ein großer Mann.;Adjektiv
+
+klein;small / nhỏ;=/= groß - Das Kind ist noch klein.;Adjektiv
+
+hell;light / sáng;=/= dunkel - Das Zimmer ist hell.;Adjektiv
+
+lang;long / dài;=/= kurz - Das ist ein langer Film.;Adjektiv
+
+kurz;short / ngắn;=/= lang - Der Tag war sehr kurz.;Adjektiv
+
+schnell;fast / nhanh;=/= langsam - Der Zug fährt schnell.;Adjektiv
+
+langsam;slow / chậm;=/= schnell - Der alte Mann geht langsam.;Adjektiv
+
+teuer;expensive / đắt;=/= billig - Dieser Ring ist teuer.;Adjektiv
+
+billig;cheap / rẻ;=/= teuer - Die Äpfel sind billig.;Adjektiv
+
+eng;narrow / hẹp;=/= breit - Die Straße ist eng.;Adjektiv
+
+breit;wide / rộng;=/= eng - Der Fluss ist sehr breit.;Adjektiv
+
+schmal;narrow / hẹp;=/= breit - Das Fenster ist schmal.;Adjektiv
+
+weit;far / xa;=/= nah - Das Dorf ist weit weg.;Adjektiv
