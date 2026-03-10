@@ -39,6 +39,7 @@ class SubtextElement(Element):
     def __init__(self, children: list[Node]):
         super().__init__(
             tag="small",
+            attributes={},
             children=[_SubtextColor(children)]
         )
 class LineBreakElement(Element):

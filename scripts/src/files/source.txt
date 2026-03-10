@@ -1,5 +1,7 @@
-der Liebhaber; die Liebhaber; Người yêu (nam), Ich habe ein Liebhaber
-die Liebhaberin; die Liebhaberinnen; Người yêu (nữ), Sie ist eine Liebhaberin
-der Freund; die Freunde; Bạn (nam), Er ist mein Freund
-die Freundin; die Freundinnen; Bạn (nữ), Sie ist meine Freundin
-die Leidenschaft; die Leidenschaften; Niềm đam mê, Die Leidenschaft ist wichtig
+der Liebhaber;die Liebhaber;Người yêu (nam);Ich habe ein Liebhaber;Nomen
+die Liebhaberin;die Liebhaberinnen;Người yêu (nữ); Sie ist eine Liebhaberin;Nomen
+das Haus;die Häuser;ngôi nhà;Das is eine Haus;Nomen
+das Museum;die Museen;Bảo tàng;Das ist ein Museum;Nomen
+der Mann;die Männer;người đàn ông;Der Mann ist groß;Nomen
+-;die Scheren;cái kéo;Die Schere ist scharf;Nomen
+das Obst;-;trái cây;Das Obst ist frisch;Nomen

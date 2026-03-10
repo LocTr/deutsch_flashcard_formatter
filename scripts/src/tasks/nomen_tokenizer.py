@@ -1,6 +1,7 @@
 
 from scripts.src.models.elements import Node, Text
 from scripts.src.tasks.nomen_elements import FemininColor, MaskulinColor, NeutrumColor, PluralColor, SpanElement, SubtextElement
+from scripts.src.tasks.string_processor import StringProcessor
 
 class NomenTokenizer:
 
@@ -103,33 +104,14 @@ class NomenTokenizer:
 
         node.append(Text(article + " "))
 
-        # If singular doesn't exist decorate with feminin color by default
+        # If singular doesn't exist keep it as is
         if singularText.strip() == "-":
-            node.append(FemininColor([Text(noun)]))
+            node.append(Text(noun))
         # If singular exists, compare and decorate only changed chars
         else:
-            # Get changed characters
-            diffChars: list[str] = []
-            singularChar = singularText.strip().split(None, 1)[1]  # Get singular noun only
-            pluralChar = noun  # Get plural noun only
-            for i,value in enumerate(pluralChar):
-                if i > len(singularChar)-1:
-                    diffChars.append(i)
-                if value != singularChar[i]:
-                    diffChars.append(i)
-
-            # Build nodes with colored changed characters
-            # IMPORTANT: do it in reverse order to not mess up indices
-            for i, value in enumerate(reversed(pluralChar)):
-                index = len(pluralChar) - 1 - i
-                if index in diffChars:
-                    # Insert color element at index
-                    coloredNode = PluralColor([Text(value)])
-                    node.insert(len(node)-1, coloredNode)  # Insert before the last element (which is Text(noun))
-                else:
-                    # Insert normal text at index
-                    normalNode = Text(value)
-                    node.insert(len(node)-1, normalNode)  # Insert before the last element (which is Text(noun))
+            singularNoun = singularText.strip().split(None, 1)[1]  # Remove article from singular noun
+            diffChars = StringProcessor.getDifferncedChars(singularNoun, noun)
+            node.extend(StringProcessor.combineToNodes(noun, diffChars, lambda t: Text(t), lambda t: PluralColor([Text(t)])))
                     
         return node   
         
