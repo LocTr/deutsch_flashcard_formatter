@@ -2,12 +2,11 @@
 from scripts.src.models.elements import Node, Text
 from scripts.src.tasks.nomen_elements import FemininColor, MaskulinColor, NeutrumColor, PluralColor, SpanElement, SubtextElement
 
-class NomenProcessor:
+class NomenTokenizer:
 
     def tokenizeEachLine(self, text: str) -> list[str]:
         lines = text.split("\n")
         return [line for line in lines if line.strip()]
-    
 
     # Tokenize set (singular, plural, translation, sentence,tag) into Nodes
     @staticmethod
@@ -25,12 +24,12 @@ class NomenProcessor:
         
         # First token is the noun
         noun = tokens.pop(0)
-        singularToken = NomenProcessor.tokenizeSingularCase(noun)
+        singularToken = NomenTokenizer.tokenizeSingularCase(noun)
         nodes.append(SpanElement(singularToken))
 
         # Second token is the plural
         pluralNoun = tokens.pop(0)
-        pluralToken = NomenProcessor.tokenizePluralCase(pluralNoun, noun)
+        pluralToken = NomenTokenizer.tokenizePluralCase(pluralNoun, noun)
         nodes.append(SpanElement(pluralToken))
 
         # Third token is the translation
