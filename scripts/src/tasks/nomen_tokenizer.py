@@ -10,7 +10,7 @@ class NomenTokenizer:
 
     # Tokenize set (singular, plural, translation, sentence,tag) into Nodes
     @staticmethod
-    def tokenizeToNode(self, text: str) -> list[Node]:
+    def tokenizeToNode(text: str) -> list[Node]:
 
         nodes: list[Node] = []
         tokens = text.split(";")
@@ -41,7 +41,8 @@ class NomenTokenizer:
         nodes.append([Text(sentence)])
         # Fifth token is the tag
         tag = tokens.pop(0).strip()
-        nodes.append(Text)
+        nodes.append(Text(tag))
+        return nodes
 
     @staticmethod
     def tokenizeSingularCase(text: str) -> list[Node]:
