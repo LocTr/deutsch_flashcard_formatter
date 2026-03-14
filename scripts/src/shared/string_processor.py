@@ -1,8 +1,10 @@
 
 
-from scripts.src.models.elements import Node
 from dataclasses import dataclass
 from enum import Enum
+
+from scripts.src.models.base_elements import Node
+
 
 class TokenType(Enum):
     DEFAULT = 1

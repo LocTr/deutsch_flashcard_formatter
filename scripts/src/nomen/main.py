@@ -1,7 +1,8 @@
 import os
 import types
-from scripts.src.tasks.nomen_tokenizer import NomenTokenizer
-from scripts.src.tasks.nomen_compiler import NomenCompiler
+
+from scripts.src.nomen.nomen_compiler import NomenCompiler
+from scripts.src.nomen.nomen_tokenizer import NomenTokenizer
 
 FILES_DIR = os.path.join(os.path.dirname(__file__), "..", "files")
 
@@ -10,8 +11,8 @@ def execute():
     tokenizer = NomenTokenizer()
     compiler = NomenCompiler()
 
-    source_path = os.path.join(FILES_DIR, "source.txt")
-    result_path = os.path.join(FILES_DIR, "result.txt")
+    source_path = os.path.join(FILES_DIR, "../files/nomen/source.txt")
+    result_path = os.path.join(FILES_DIR, "../files/nomen/result.txt")
 
     with open(source_path, "r", encoding="utf-8") as f:
         text = f.read()

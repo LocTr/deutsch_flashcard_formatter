@@ -1,7 +1,7 @@
 
-from scripts.src.models.elements import Node, Text
-from scripts.src.tasks.nomen_elements import FemininColor, MaskulinColor, NeutrumColor, PluralColor, SpanElement, SubtextElement
-from scripts.src.tasks.string_processor import StringProcessor
+from scripts.src.models.base_elements import Node, Text
+from scripts.src.models.elements import FemininColor, MaskulinColor, NeutrumColor, PluralColor, SpanElement, SubtextElement
+from scripts.src.shared.string_processor import StringProcessor
 
 class NomenTokenizer:
 

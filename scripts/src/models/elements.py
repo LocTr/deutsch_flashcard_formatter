@@ -1,31 +1,55 @@
-from __future__ import annotations
-from typing import Dict, List
-from dataclasses import dataclass
-from abc import ABC, abstractmethod
 
-class Node(ABC):
-    @abstractmethod
-    def to_html(self) -> str:
-        pass
-
-@dataclass
-class Element(Node):
-    tag: str
-    attributes: Dict[str, str]
-    children: List[Node]
-
-    def to_html(self) -> str:
-        attributes_str = ' '.join(f'{key}="{value}"' for key, value in self.attributes.items())
-        opening_tag = f"<{self.tag} {attributes_str}>".strip()
-        children_html = ''.join(child.to_html() for child in self.children)
-        closing_tag = f"</{self.tag}>"
-        return f"{opening_tag}{children_html}{closing_tag}"
+from scripts.src.models.base_elements import Element, Node
 
 
+class SpanElement(Element):
+    def __init__(self, children: list[Node], style: str | None = None):
+        super().__init__(
+            tag="span",
+            attributes={"style": style} if style is not None else {},
+            children=children
+        )
 
-@dataclass
-class Text(Node):
-    content: str
+class ColorElement(Element):
+    def __init__(self, children: list[Node], r: int, g: int, b: int):
+        style = f"color: rgb({r}, {g}, {b});"
+        super().__init__(
+            tag="span",
+            attributes={"style": style},
+            children=children
+        )
 
-    def to_html(self) -> str:
-        return self.content
+class MaskulinColor(ColorElement):
+    def __init__(self, children: list[Node]):
+        super().__init__(children, 138, 207, 255)
+class FemininColor(ColorElement):
+    def __init__(self, children: list[Node]):
+        super().__init__(children, 255, 138, 138)
+class NeutrumColor(ColorElement):
+    def __init__(self, children: list[Node]):
+        super().__init__(children, 138, 255, 138)
+class PluralColor(ColorElement):
+    def __init__(self, children: list[Node]):
+        super().__init__(children, 255, 140, 0)
+class HighlightColor(ColorElement):
+    def __init__(self, children: list[Node]):
+        super().__init__(children, 255, 215, 0)
+
+class _SubtextColor(ColorElement):
+    def __init__(self, children: list[Node]):
+        super().__init__(children, 181, 181, 181)
+
+class SubtextElement(Element):
+    def __init__(self, children: list[Node]):
+        super().__init__(
+            tag="small",
+            attributes={},
+            children=[_SubtextColor(children)]
+        )
+class LineBreakElement(Element):
+    def __init__(self):
+        super().__init__(
+            tag="br",
+            attributes={},
+            children=[]
+        )
