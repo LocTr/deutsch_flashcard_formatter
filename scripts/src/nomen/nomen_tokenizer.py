@@ -2,6 +2,8 @@
 from scripts.src.models.base_elements import Node, Text
 from scripts.src.models.elements import FemininColor, MaskulinColor, NeutrumColor, PluralColor, SpanElement, SubtextElement
 from scripts.src.shared.string_processor import StringProcessor
+from scripts.src.nomen.nomen import Nomen
+
 
 class NomenTokenizer:
 
@@ -9,41 +11,41 @@ class NomenTokenizer:
         lines = text.split("\n")
         return [line for line in lines if line.strip()]
 
-    # Tokenize set (singular, plural, translation, sentence,tag) into Nodes
     @staticmethod
-    def tokenizeToNode(text: str) -> list[Node]:
+    def parseToNomen(text: str) -> Nomen:
+        """Parse semicolon-separated string to Nomen dataclass."""
+        tokens = [t.strip() for t in text.split(";")]
 
-        nodes: list[Node] = []
-        tokens = text.split(";")
+        if len(tokens) < 6:
+            raise ValueError("Not enough tokens to process noun phrase. Line: " + text)
 
-        # First token is word in singular form
+        return Nomen(
+            word_singular=tokens[0],
+            word_plural=tokens[1],
+            translationEn=tokens[2],
+            translationVi=tokens[3],
+            sample_sentence=tokens[4]
+        )
 
-        
-        # Check if there are enough tokens
-        if len(tokens) < 5:
-            raise ValueError("Not enough tokens to process noun phrase. Word cause: " + text)
-        
-        # First token is the noun
-        noun = tokens.pop(0)
-        singularToken = NomenTokenizer.tokenizeSingularCase(noun)
-        nodes.append(SpanElement(singularToken))
+    @staticmethod
+    def nomenToNodes(nomen: Nomen) -> list[Node]:
+        """Convert Nomen dataclass to Node list for HTML rendering."""
+        # Process singular
+        singularToken = NomenTokenizer.tokenizeSingularCase(nomen.word_singular)
+        singular_node = SpanElement(singularToken)
 
-        # Second token is the plural
-        pluralNoun = tokens.pop(0)
-        pluralToken = NomenTokenizer.tokenizePluralCase(pluralNoun, noun)
-        nodes.append(SpanElement(pluralToken))
+        # Process plural
+        pluralToken = NomenTokenizer.tokenizePluralCase(nomen.word_plural, nomen.word_singular)
+        plural_node = SpanElement(pluralToken)
 
-        # Third token is the translation
-        translation = tokens.pop(0).strip()
-        nodes.append([Text(translation)])
-
-        # Fourth token is the example sentence
-        sentence = tokens.pop(0).strip()
-        nodes.append([Text(sentence)])
-        # Fifth token is the tag
-        tag = tokens.pop(0).strip()
-        nodes.append(Text(tag))
-        return nodes
+        return [
+            singular_node,                 # singular form with color
+            plural_node,                   # plural form with color
+            Text(nomen.translationEn),     # English translation
+            Text(nomen.translationVi),     # Vietnamese translation
+            Text(nomen.sample_sentence),   # sentence
+            Text("Nomen"),                 # tag
+        ]
 
     @staticmethod
     def tokenizeSingularCase(text: str) -> list[Node]:

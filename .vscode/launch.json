@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run Nomen",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "scripts.src.nomen.main",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Run Verben",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "scripts.src.verben.main",
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}

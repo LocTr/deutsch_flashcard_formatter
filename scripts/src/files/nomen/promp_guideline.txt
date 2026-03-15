@@ -1,0 +1,92 @@
+NOMEN SOURCE FILE FORMAT GUIDELINES
+====================================
+
+FILE FORMAT:
+Each line represents one noun with 6 semicolon-separated fields.
+
+FIELD STRUCTURE (in order):
+1. Singular form (with article: der/die/das)
+2. Plural form (with article: die)
+3. English translation
+4. Vietnamese translation
+5. Example sentence
+6. Tag (always "Nomen")
+
+EXAMPLE LINE:
+der Mann;die Männer;man;người đàn ông;Der Mann, den wir gestern getroffen haben, arbeitet jetzt in einer Bank.;Nomen
+
+RULES:
+- Use semicolons (;) as field separators - NO EXCEPTIONS
+- All 6 fields are required
+- No trailing semicolon at end of line
+- One noun per line
+- No extra spaces around semicolons (trim whitespace)
+
+ARTICLE RULES:
+- Singular: MUST include correct article (der/die/das)
+  * der = masculine (Maskulin)
+  * die = feminine (Feminin)
+  * das = neuter (Neutrum)
+- Plural: MUST use "die" as article
+- Format: "article space noun" (e.g., "der Mann", "die Häuser")
+
+SPECIAL CASES - SINGULAR/PLURAL:
+- Plural-only nouns: Use "-" for singular field
+  Example: -;die Scheren;scissors;cái kéo;Die Scheren liegen...;Nomen
+  
+- Singular-only nouns: Use "-" for plural field
+  Example: das Obst;-;fruit;trái cây;Obst esse ich...;Nomen
+  
+- Rarely used forms: Use "(selten)" and explain in sentence if needed
+  Example: das Wort;die Wörter (selten: die Worte);word;từ;...;Nomen
+
+TRANSLATION RULES:
+- English: Use simple, common English translation
+  * Lowercase unless it's a proper noun
+  * No article in translation (use "house" not "the house")
+  * Keep concise
+
+- Vietnamese: Use common Vietnamese equivalent
+  * Match the English translation style
+  * Use standard Vietnamese orthography with diacritics
+
+EXAMPLE SENTENCE RULES:
+- Level: B1 (Intermediate)
+- Complexity: Use relative clauses, subordinate clauses, or compound structures
+- Length: 10-18 words ideal
+- Grammar features to include:
+  * Relative clauses (der/die/das, den/die/das)
+  * Subordinate clauses (weil, dass, obwohl, wenn)
+  * Prepositional phrases (in dem, vor dem, etc.)
+  * Natural everyday contexts
+  * Correct case usage (Nominativ, Akkusativ, Dativ, Genitiv)
+
+- The noun should appear in the sentence in an appropriate case
+- Use natural, realistic situations
+- Avoid overly simple A2-level sentences
+
+EXAMPLE SENTENCE PATTERNS:
+✓ "Das Haus, in dem meine Großeltern wohnen, wurde vor kurzem renoviert."
+   (relative clause + passive voice)
+
+✓ "Der Mann, den wir gestern getroffen haben, arbeitet jetzt in einer Bank."
+   (relative clause with accusative)
+
+✓ "Im Museum konnte man viel über die Geschichte der Stadt lernen."
+   (modal verb + prepositional phrase)
+
+✓ "Obst esse ich fast jeden Morgen, weil es gesund ist und mir Energie gibt."
+   (subordinate clause + compound predicate)
+
+✗ "Das Haus ist groß." (too simple)
+✗ "Der Mann arbeitet." (too basic)
+
+ARTICLE COLORS (for reference):
+- Maskulin (der): rgb(138, 207, 255) - blue
+- Feminin (die): rgb(255, 138, 138) - red/pink
+- Neutrum (das): rgb(138, 255, 138) - green
+- Plural highlight: rgb(255, 140, 0) - orange (for changed letters)
+
+TAG FIELD:
+- Always use: "Nomen"
+- No variations or alternatives

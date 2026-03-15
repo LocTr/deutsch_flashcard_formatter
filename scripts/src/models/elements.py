@@ -33,7 +33,7 @@ class PluralColor(ColorElement):
         super().__init__(children, 255, 140, 0)
 class HighlightColor(ColorElement):
     def __init__(self, children: list[Node]):
-        super().__init__(children, 255, 215, 0)
+        super().__init__(children, 255, 140, 0)
 
 class _SubtextColor(ColorElement):
     def __init__(self, children: list[Node]):

@@ -1,0 +1,65 @@
+VERBEN SOURCE FILE FORMAT GUIDELINES
+=====================================
+
+FILE FORMAT:
+Each line represents one verb with 10 semicolon-separated fields.
+
+FIELD STRUCTURE (in order):
+1. Infinitive (base form)
+2. ich conjugation
+3. du conjugation
+4. er/sie/es conjugation
+5. wir conjugation
+6. ihr conjugation
+7. Sie/sie conjugation
+8. English translation
+9. Vietnamese translation
+10. Example sentence
+
+EXAMPLE LINE:
+können;kann;kannst;kann;können;könnt;können;can;có thể;Ich kann den Text verstehen, obwohl er einige unbekannte Wörter enthält.
+
+RULES:
+- Use semicolons (;) as field separators - NO EXCEPTIONS
+- All 10 fields are required
+- No trailing semicolon at end of line
+- One verb per line
+- No extra spaces around semicolons (trim whitespace)
+
+CONJUGATION RULES:
+- Provide present tense conjugations for all persons
+- Include modal verbs (können, müssen, wollen, sollen, dürfen, möchten)
+- Include irregular verbs with their stem changes
+
+TRANSLATION RULES:
+- English: Use simple, common English translation
+  * For modal verbs, include common meanings (e.g., "must / have to")
+  * Keep it concise and practical
+- Vietnamese: Use common Vietnamese equivalent
+  * Match the English translation style
+  * Use standard Vietnamese orthography
+
+EXAMPLE SENTENCE RULES:
+- Level: B1 (Intermediate)
+- Complexity: Use subordinate clauses (weil, dass, obwohl, wenn, etc.)
+- Length: 10-15 words ideal
+- Grammar features to include:
+  * Subordinate clauses with verb-final position
+  * Time/reason/conditional clauses
+  * Modal verbs in context
+  * Natural everyday situations
+- Avoid: overly simple sentences or A2-level grammar
+- The verb should be used naturally and grammatically correct
+
+EXAMPLE SENTENCE PATTERNS:
+✓ "Ich kann den Text verstehen, obwohl er einige unbekannte Wörter enthält."
+✓ "Wir müssen heute pünktlich losfahren, weil das Meeting schon um acht beginnt."
+✓ "Er will in Berlin studieren, weil ihn die Stadt und die Universitäten interessieren."
+
+✗ "Ich kann Deutsch." (too simple)
+✗ "Sie müssen arbeiten." (too basic)
+
+SPECIAL CASES:
+- Separable verbs: Use infinitive form in field 1 (e.g., "aufstehen")
+- Modal verbs: Always include full conjugation paradigm
+- If multiple meanings exist, choose the most common one

@@ -1,5 +1,4 @@
 import os
-import types
 
 from scripts.src.nomen.nomen_compiler import NomenCompiler
 from scripts.src.nomen.nomen_tokenizer import NomenTokenizer
@@ -21,15 +20,10 @@ def execute():
 
     compiled_lines = []
     for line in lines:
-        parts = NomenTokenizer.tokenizeToNode(line)
-        node = types.SimpleNamespace(
-            singular=parts[0].to_html(),
-            plural=parts[1].to_html(),
-            translation=parts[2][0].to_html(),
-            sentence=parts[3][0].to_html(),
-            tag=parts[4],
-        )
-        compiled_lines.append(compiler.compileNodeToString(node))
+        # Pipeline: str -> Nomen -> Node list -> HTML string
+        nomen = tokenizer.parseToNomen(line)
+        nodes = tokenizer.nomenToNodes(nomen)
+        compiled_lines.append(compiler.compileNomen(nomen, nodes))
 
     with open(result_path, "w", encoding="utf-8") as f:
         f.write(compiler.joinStrings(compiled_lines))
