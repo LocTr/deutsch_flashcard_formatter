@@ -1,7 +1,7 @@
-der Liebhaber;die Liebhaber;Người yêu (nam);Ich habe ein Liebhaber;Nomen
-die Liebhaberin;die Liebhaberinnen;Người yêu (nữ); Sie ist eine Liebhaberin;Nomen
-das Haus;die Häuser;ngôi nhà;Das is eine Haus;Nomen
-das Museum;die Museen;Bảo tàng;Das ist ein Museum;Nomen
-der Mann;die Männer;người đàn ông;Der Mann ist groß;Nomen
--;die Scheren;cái kéo;Die Schere ist scharf;Nomen
-das Obst;-;trái cây;Das Obst ist frisch;Nomen
+der Liebhaber;die Liebhaber;male lover;Người yêu (nam);Sie erzählte mir, dass ihr Liebhaber seit zwei Jahren in Berlin lebt.;Nomen
+die Liebhaberin;die Liebhaberinnen;female lover;Người yêu (nữ);Die Liebhaberin wartete vor dem Kino, obwohl es schon ziemlich spät war.;Nomen
+das Haus;die Häuser;house;ngôi nhà;Das Haus, in dem meine Großeltern wohnen, wurde vor kurzem renoviert.;Nomen
+das Museum;die Museen;museum;Bảo tàng;Im Museum konnte man viel über die Geschichte der Stadt lernen.;Nomen
+der Mann;die Männer;man;người đàn ông;Der Mann, den wir gestern getroffen haben, arbeitet jetzt in einer Bank.;Nomen
+-;die Scheren;scissors;cái kéo;Die Scheren liegen auf dem Tisch, damit wir das Papier leichter schneiden können.;Nomen
+das Obst;-;fruit;trái cây;Obst esse ich fast jeden Morgen, weil es gesund ist und mir Energie gibt.;Nomen
