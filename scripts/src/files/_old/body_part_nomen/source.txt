@@ -1,0 +1,24 @@
+die Augenbraue;die Augenbrauen;eyebrow;lông mày;Die Augenbrauen, die sehr dunkel sind, geben ihrem Gesicht einen strengen Ausdruck.;Nomen
+der Kopf;die Köpfe;head;đầu;Viele Köpfe blieben ruhig, obwohl der Trainer kurz vor Schluss laut wurde.;Nomen
+die Stirn;die Stirnen;forehead;trán;Auf seiner Stirn konnte man sehen, dass er sich große Sorgen machte.;Nomen
+das Ohr;die Ohren;ear;tai;Das Kind hielt sich die Ohren zu, weil der Lärm zu stark war.;Nomen
+das Kinn;die Kinne;chin;cằm;Am Kinn erkannte ich ihn sofort, obwohl sein Bart viel länger war.;Nomen
+der Hals;die Hälse;neck;cổ;Im Winter tragen viele Leute Schals, damit ihre Hälse warm bleiben.;Nomen
+der Arm;die Arme;arm;cánh tay;Der Patient hob langsam den Arm, nachdem der Arzt ihn untersucht hatte.;Nomen
+der Bauch;die Bäuche;belly;bụng;Nach dem schweren Essen taten uns die Bäuche weh, obwohl wir nur wenig aßen.;Nomen
+die Taille;die Taillen;waist;eo;Die Schneiderin maß ihre Taille, bevor sie das Kleid weiter anpasste.;Nomen
+die Hand;die Hände;hand;bàn tay;Sie wusch sich die Hände, nachdem sie lange im Garten gearbeitet hatte.;Nomen
+der Finger;die Finger;finger;ngón tay;Seine Finger waren kalt, weil er ohne Handschuhe zur Arbeit gefahren war.;Nomen
+der Zeh;die Zehen;toe;ngón chân;Beim Wandern schmerzten meine Zehen, obwohl die Schuhe eigentlich bequem waren.;Nomen
+der Körper;die Körper;body;cơ thể;Der Körper braucht Ruhe, wenn man mehrere Nächte fast nicht geschlafen hat.;Nomen
+das Haar;die Haare;hair;tóc;Ihre Haare waren noch nass, weil sie direkt aus dem Schwimmbad kam.;Nomen
+das Auge;die Augen;eye;mắt;An seinen Augen merkte ich sofort, dass ihn die Nachricht überrascht hatte.;Nomen
+die Nase;die Nasen;nose;mũi;Wegen des kalten Winds wurden unsere Nasen rot, als wir nach Hause gingen.;Nomen
+der Zahn;die Zähne;tooth;răng;Der Zahnarzt erklärte, warum die Zähne gründlich geputzt werden müssen.;Nomen
+der Mund;die Münder;mouth;miệng;Die Kinder hielten die Münder offen, weil der Zauberer sie beeindruckte.;Nomen
+die Schulter;die Schultern;shoulder;vai;Nach dem Umzug schmerzten meine Schultern, obwohl ich oft Pausen gemacht hatte.;Nomen
+die Brust;die Brüste;chest;ngực;Er legte die Hand auf die Brust, als er plötzlich schlecht Luft bekam.;Nomen
+der Nabel;die Nabel;navel;rốn;Der Arzt untersuchte den Nabel des Babys, nachdem die Mutter Fragen gestellt hatte.;Nomen
+das Knie;die Knie;knee;đầu gối;Seine Knie zitterten, obwohl er vor der Präsentation ganz ruhig wirken wollte.;Nomen
+das Bein;die Beine;leg;chân;Nach der langen Zugfahrt waren meine Beine so schwer, dass ich sofort spazieren ging.;Nomen
+der Fuß;die Füße;foot;bàn chân;Sein linker Fuß tat weh, nachdem er beim Training unglücklich umgeknickt war.;Nomen

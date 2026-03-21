@@ -1,0 +1,83 @@
+ADJEKTIV SOURCE FILE FORMAT GUIDELINES
+=======================================
+
+FILE FORMAT:
+Each line represents one adjective with 4 semicolon-separated fields.
+
+FIELD STRUCTURE (in order):
+1. Front face: adjective and its similar word and opposite (if any)
+2. Back face: English and Vietnamese translation
+3. Example sentence
+4. Tag (always "Adjektiv")
+
+EXAMPLE LINE:
+groß ↔ klein;big / lớn;Das Gebäude ist so groß, dass man sich darin leicht verlaufen kann.;Adjektiv
+
+RULES:
+- Use semicolons (;) as field separators - NO EXCEPTIONS
+- All 4 fields are required
+- No trailing semicolon at end of line
+- One adjective per line
+- No extra spaces around semicolons (trim whitespace)
+
+FIELD 1 — FRONT FACE (adjective + opposite):
+- Format: "adjective ↔ opposite"
+- Use the ↔ symbol to separate the adjective from its antonym
+- If no common opposite exists, write the adjective alone (no ↔)
+- Use the base (uninflected) form of the adjective
+- Examples:
+  * "groß ↔ klein"
+  * "schnell ↔ langsam"
+  * "glücklich ↔ unglücklich"
+  * "fremd"          (no clear antonym)
+
+FIELD 2 — BACK FACE (translation):
+- Format: "English / Vietnamese"
+- Use " / " (space-slash-space) to separate the two translations
+- English: simple, common translation in lowercase
+- Vietnamese: standard Vietnamese with diacritics
+- Examples:
+  * "big / lớn"
+  * "happy / hạnh phúc"
+  * "fast / nhanh"
+
+FIELD 3 — EXAMPLE SENTENCE:
+- Level: A2–B1 (Elementary to Intermediate)
+- The adjective must appear in the sentence
+- Length: 8–15 words ideal
+- Use natural, everyday contexts
+- Grammar features to include:
+  * Predicate adjective use (Das Wetter ist schön.)
+  * Attributive adjective with correct declension (Ein kleines Kind...)
+  * Degree comparisons where natural (schneller als, am schnellsten)
+  * Subordinate clauses (weil, dass, obwohl, wenn) for B1 sentences
+
+EXAMPLE SENTENCE PATTERNS:
+✓ "Das Gebäude ist so groß, dass man sich darin leicht verlaufen kann."
+   (predicate + subordinate clause)
+
+✓ "Sie ist immer glücklich, weil sie einen netten Job hat."
+   (predicate adjective + reason clause)
+
+✓ "Ein kleines Kind steht vor der Tür und wartet auf seine Mutter."
+   (attributive adjective + compound predicate)
+
+✓ "Der Weg war lang, aber die Aussicht am Ende war wunderschön."
+   (contrast with aber)
+
+✗ "Das ist groß." (too simple)
+✗ "Sie ist glücklich." (too basic)
+
+FIELD 4 — TAG:
+- Always use exactly: Adjektiv
+- No variations, no lowercase
+
+SPECIAL CASES:
+- Adjectives with no antonym: omit the ↔ part entirely
+  Example: "fremd;foreign / xa lạ;Er traf ein fremdes Kind im Park.;Adjektiv"
+
+- Adjectives that are also adverbs: use the base form; the example may show adverb use
+  Example: "schnell ↔ langsam;fast / nhanh;Er läuft so schnell, dass niemand ihn einholen kann.;Adjektiv"
+
+- Compound antonyms with un-/in- prefix: include the prefixed form
+  Example: "möglich ↔ unmöglich;possible / có thể;Es ist unmöglich, das in einem Tag zu schaffen.;Adjektiv"
