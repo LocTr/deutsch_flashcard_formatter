@@ -19,6 +19,7 @@ RULES:
 - No trailing semicolon at end of line
 - One adjective per line
 - No extra spaces around semicolons (trim whitespace)
+- No duplication for opposite words, if they appear before
 
 FIELD 1 — FRONT FACE (adjective + opposite):
 - Format: "adjective ↔ opposite"

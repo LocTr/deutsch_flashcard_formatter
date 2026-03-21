@@ -1,20 +1,20 @@
-auswahlen
-stemplen
-funktionieren
-wahlen
-mitbringen
-unterschreiben
-ausfullen
-ausmachen
-anmachen
-aufmachen
-zumachen
-lachen
-reparieren
-rausbringen
-putzen
-schicken
-vermissen
-wehtun
-schmerzen
-aussehen
+auswählen;wähle aus;wählst aus;wählt aus;wählen aus;wählt aus;wählen aus;choose;chọn;Bitte wählen Sie im Formular die passende Option aus.
+stempeln;stemple;stempelst;stempelt;stempeln;stempelt;stempeln;stamp;đóng dấu;Am Bahnhof muss ich das Ticket noch schnell stempeln.
+funktionieren;funktioniere;funktionierst;funktioniert;funktionieren;funktioniert;funktionieren;work, function;hoạt động;Der Drucker funktioniert wieder, nachdem ich das Kabel geprüft habe.
+wählen;wähle;wählst;wählt;wählen;wählt;wählen;vote, choose;chọn, bầu;Viele Leute wählen heute per Brief, weil sie keine Zeit haben.
+mitbringen;bringe mit;bringst mit;bringt mit;bringen mit;bringt mit;bringen mit;bring along;mang theo;Kannst du bitte deinen Ausweis mitbringen, wenn wir zum Amt gehen?
+unterschreiben;unterschreibe;unterschreibst;unterschreibt;unterschreiben;unterschreibt;unterschreiben;sign;ký tên;Bitte unterschreiben Sie hier, bevor wir den Antrag abschicken.
+ausfüllen;fülle aus;füllst aus;füllt aus;füllen aus;füllt aus;füllen aus;fill out;điền vào;Ich muss heute noch ein langes Formular ausfüllen.
+ausmachen;mache aus;machst aus;macht aus;machen aus;macht aus;machen aus;turn off;tắt;Mach bitte das Licht aus, wenn du das Zimmer verlässt.
+anmachen;mache an;machst an;macht an;machen an;macht an;machen an;turn on;bật;Kannst du die Heizung anmachen, weil es hier kalt ist?
+aufmachen;mache auf;machst auf;macht auf;machen auf;macht auf;machen auf;open;mở;Mach bitte das Fenster auf, damit frische Luft hereinkommt.
+zumachen;mache zu;machst zu;macht zu;machen zu;macht zu;machen zu;close;đóng;Bitte mach die Tür zu, weil es im Flur laut ist.
+lachen;lache;lachst;lacht;lachen;lacht;lachen;laugh;cười;Die Kinder lachen laut, wenn der Lehrer einen Witz erzählt.
+reparieren;repariere;reparierst;repariert;reparieren;repariert;reparieren;repair;sửa chữa;Der Mechaniker repariert mein Fahrrad, obwohl er heute viel zu tun hat.
+rausbringen;bringe raus;bringst raus;bringt raus;bringen raus;bringt raus;bringen raus;take out;đem ra ngoài;Ich bringe den Müll raus, bevor wir Besuch bekommen.
+putzen;putze;putzt;putzt;putzen;putzt;putzen;clean;lau dọn;Am Samstag putzen wir die Wohnung, damit alles ordentlich aussieht.
+schicken;schicke;schickst;schickt;schicken;schickt;schicken;send;gửi;Ich schicke dir die Adresse, sobald ich zu Hause bin.
+vermissen;vermisse;vermisst;vermisst;vermissen;vermisst;vermissen;miss;nhớ;Seit ihrem Umzug vermisse ich meine Freundin sehr.
+wehtun;tue weh;tust weh;tut weh;tun weh;tut weh;tun weh;hurt;đau;Mein Rücken tut weh, weil ich gestern schwere Kisten getragen habe.
+schmerzen;schmerze;schmerzt;schmerzt;schmerzen;schmerzt;schmerzen;ache;đau nhức;Nach dem langen Lauf schmerzen meine Beine noch ein bisschen.
+aussehen;sehe aus;siehst aus;sieht aus;sehen aus;seht aus;sehen aus;look;trông;Du siehst heute müde aus, obwohl du früh ins Bett gegangen bist.

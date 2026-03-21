@@ -1,36 +1,36 @@
-der Ausweis
-der Fahrkartenautomat
-der Erwaschsener
-das Weschselgeld
-der Antrag
-die Fahrkarte
-der Fuhrerschein
-das Ziel
-Fernbus
-der Mülleimer
-das Moped
-das Motorrad
-das Geschirr
-die Spüle
-die Koffer
-Autovermietung
-das Formular
-die Angehorige
-der Auslander
-die Anmeldung
-der Familienstand
-das Geschlecht
-der Schmerz
-die Krankheit
-Ubelkeit
-Husten
-Fieber
-Grippe
-Schnupfen
-der Liebeskummer
-der Schlafmangel
-das Gesicht
-die Haut
-das Schatz
-der Liebling
-das Horn
+der Ausweis;die Ausweise;ID card;chứng minh thư;Bitte zeigen Sie am Schalter Ihren Ausweis, bevor Sie das Ticket kaufen.;Nomen
+der Fahrkartenautomat;die Fahrkartenautomaten;ticket machine;máy bán vé tự động;Der Fahrkartenautomat nimmt heute nur Karten, deshalb kann ich nicht bar zahlen.;Nomen
+der Erwachsene;die Erwachsenen;adult;người lớn;Im Bus müssen Erwachsene den vollen Preis bezahlen.;Nomen
+das Wechselgeld;-;change;tiền thừa;Bitte prüfen Sie kurz das Wechselgeld, bevor Sie den Laden verlassen.;Nomen
+der Antrag;die Anträge;application;đơn, hồ sơ;Den Antrag können Sie online ausfüllen und später ausdrucken.;Nomen
+die Fahrkarte;die Fahrkarten;ticket;vé;Ich habe meine Fahrkarte schon gekauft, obwohl der Zug erst später kommt.;Nomen
+der Führerschein;die Führerscheine;driver's license;bằng lái xe;Ohne Führerschein darf er das Auto natürlich nicht fahren.;Nomen
+das Ziel;die Ziele;destination;điểm đến;Unser Ziel ist München, aber wir müssen in Nürnberg umsteigen.;Nomen
+der Fernbus;die Fernbusse;long-distance bus;xe khách đường dài;Der Fernbus nach Berlin fährt wegen des Staus zwanzig Minuten später ab.;Nomen
+der Mülleimer;die Mülleimer;trash can;thùng rác;Der Mülleimer in der Küche ist schon voll und muss geleert werden.;Nomen
+das Moped;die Mopeds;moped;xe máy nhỏ;Mit dem Moped kommt er schneller zur Arbeit als mit dem Bus.;Nomen
+das Motorrad;die Motorräder;motorcycle;xe mô tô;Im Sommer fährt sie oft mit dem Motorrad an den See.;Nomen
+das Geschirr;-;dishes;bát đĩa;Nach dem Essen spüle ich das Geschirr, während mein Bruder abtrocknet.;Nomen
+die Spüle;die Spülen;sink;bồn rửa;In der Spüle liegt noch Geschirr, das wir später sauber machen.;Nomen
+der Koffer;die Koffer;suitcase;va li;Sein Koffer ist so schwer, dass er ihn kaum tragen kann.;Nomen
+die Autovermietung;die Autovermietungen;car rental;dịch vụ cho thuê xe;Die Autovermietung verlangt einen Ausweis und eine Kreditkarte.;Nomen
+das Formular;die Formulare;form;biểu mẫu;Bitte lesen Sie das Formular genau, bevor Sie es unterschreiben.;Nomen
+die Angehörige;die Angehörigen;female relative;người thân nữ;Eine Angehörige wartete im Krankenhaus, bis der Arzt endlich kam.;Nomen
+der Ausländer;die Ausländer;foreigner;người nước ngoài;Der Ausländer fragte höflich nach dem Weg zum Bürgeramt.;Nomen
+die Anmeldung;die Anmeldungen;registration;đăng ký;Für den Kurs ist die Anmeldung nur noch bis Freitag möglich.;Nomen
+der Familienstand;die Familienstände;marital status;tình trạng hôn nhân;Im Formular muss man auch den Familienstand angeben.;Nomen
+das Geschlecht;die Geschlechter;gender;giới tính;Das Geschlecht spielt bei dieser Bewerbung keine Rolle.;Nomen
+der Schmerz;die Schmerzen;pain;cơn đau;Der Schmerz im Rücken wurde nach der Pause etwas besser.;Nomen
+die Krankheit;die Krankheiten;illness;bệnh tật;Viele Krankheiten lassen sich vermeiden, wenn man gesund lebt.;Nomen
+die Übelkeit;-;nausea;buồn nôn;Wegen der Übelkeit konnte sie am Morgen nichts essen.;Nomen
+der Husten;-;cough;cơn ho;Der Husten ist nachts besonders schlimm, deshalb schläft er kaum.;Nomen
+das Fieber;-;fever;sốt;Bei hohem Fieber sollte man nicht arbeiten gehen.;Nomen
+die Grippe;-;flu;cúm;Nach der Grippe brauchte sie fast eine Woche, um wieder fit zu werden.;Nomen
+der Schnupfen;-;cold;viêm mũi, cảm lạnh;Mit einem leichten Schnupfen geht er trotzdem ins Büro.;Nomen
+der Liebeskummer;-;heartbreak;thất tình;Nach der Trennung hatte sie so großen Liebeskummer, dass sie kaum aß.;Nomen
+der Schlafmangel;-;lack of sleep;thiếu ngủ;Durch den Schlafmangel konnte ich mich im Unterricht schlecht konzentrieren.;Nomen
+das Gesicht;die Gesichter;face;khuôn mặt;An ihrem Gesicht sah man sofort, dass sie überrascht war.;Nomen
+die Haut;die Häute;skin;da;Im Winter wird meine Haut schnell trocken und empfindlich.;Nomen
+der Schatz;die Schätze;treasure;kho báu;Für die Familie sind die alten Fotos ein echter Schatz.;Nomen
+der Liebling;die Lieblinge;favorite;cưng, người/vật yêu thích;Dieser Song ist seit Monaten mein absoluter Liebling.;Nomen
+das Horn;die Hörner;horn;sừng;Der Stier hob den Kopf und zeigte seine langen Hörner.;Nomen

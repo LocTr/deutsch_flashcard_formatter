@@ -1,45 +1,27 @@
-mannlich
-weiblich
-getrennt
-krank
-reisekrank
-traurig
-ubergewichtig
-stressig
-nass
-trocken
-hübsch
-hässlich
-eckig
-rund
-lockig
-glatt
-dick
-dunn
-riesig
-winzig
-stark
-schwach
-frohlich
-nett
-offen
-geschlossen
-freundlich
-unfreundlich
-interessant
-langweilig
-ordentlich
-unordentlich
-sympathisch
-unsympathisch
-unmodern
-altmodisch
-modern
-modisch
-schick
-elegant
-nicht elegant
-attraktiv
-unattraktiv
-sportlich
-unsportlich
+männlich ↔ weiblich;male / nam;Der Arzt fragt, ob das Baby männlich oder weiblich ist.;Adjektiv
+getrennt ↔ zusammen;separated / ly thân;Die Eltern leben getrennt, kümmern sich aber gemeinsam um ihr Kind.;Adjektiv
+krank ↔ gesund;ill / bị bệnh;Ich bleibe heute zu Hause, weil ich krank bin.;Adjektiv
+reisekrank;travel-sick / say tàu xe;Meine Schwester wird schnell reisekrank, wenn der Bus zu voll ist.;Adjektiv
+traurig ↔ fröhlich;sad / buồn;Er war traurig, weil sein bester Freund umgezogen ist.;Adjektiv
+übergewichtig ↔ schlank;overweight / thừa cân;Der Arzt sagte, dass ich etwas übergewichtig bin.;Adjektiv
+stressig ↔ entspannt;stressful / căng thẳng;Die Woche vor der Prüfung ist immer besonders stressig.;Adjektiv
+nass ↔ trocken;wet / ướt;Meine Schuhe sind nass, weil es stark geregnet hat.;Adjektiv
+hübsch ↔ hässlich;pretty / xinh đẹp;Sie trägt ein hübsches Kleid zur Feier ihrer Freundin.;Adjektiv
+eckig ↔ rund;square / góc cạnh;Der Tisch ist eckig und passt gut in die kleine Küche.;Adjektiv
+lockig ↔ glatt;curly / xoăn;Sie hat lockige Haare, die bei Regen noch wilder aussehen.;Adjektiv
+dick ↔ dünn;thick / dày;Im Winter trage ich eine dicke Jacke, damit mir nicht kalt wird.;Adjektiv
+riesig ↔ winzig;huge / khổng lồ;Das Einkaufszentrum ist riesig, deshalb verlaufe ich mich dort oft.;Adjektiv
+stark ↔ schwach;strong / mạnh;Nach dem Urlaub fühle ich mich wieder stark und fit.;Adjektiv
+nett ↔ gemein;nice / tử tế;Unsere Nachbarin ist sehr nett und hilft uns oft.;Adjektiv
+offen ↔ geschlossen;open / mở;Das Fenster bleibt offen, obwohl es draußen schon kühl ist.;Adjektiv
+freundlich ↔ unfreundlich;friendly / thân thiện;Der Verkäufer war freundlich und hat alles ruhig erklärt.;Adjektiv
+interessant ↔ langweilig;interesting / thú vị;Der Film war interessant, obwohl er fast drei Stunden dauerte.;Adjektiv
+ordentlich ↔ unordentlich;tidy / gọn gàng;Mein Schreibtisch ist heute ordentlich, weil ich alles sortiert habe.;Adjektiv
+sympathisch ↔ unsympathisch;likable / dễ mến;Die neue Kollegin wirkt sympathisch und spricht mit allen.;Adjektiv
+unmodern ↔ modern;outdated / lỗi thời;Dieses Design wirkt heute unmodern und passt nicht mehr zur App.;Adjektiv
+altmodisch ↔ modern;old-fashioned / lỗi thời;Mein Onkel trägt oft altmodische Hüte, die ihm trotzdem gut stehen.;Adjektiv
+modisch ↔ unmodern;fashionable / thời trang;Sie ist immer modisch gekleidet, auch wenn sie nur einkaufen geht.;Adjektiv
+schick;chic / lịch sự, sang trọng;Zum Abendessen im Restaurant ziehen wir uns etwas schick an.;Adjektiv
+elegant ↔ unelegant;elegant / thanh lịch;Sie ging in einem eleganten Kleid zur Hochzeit ihrer Schwester.;Adjektiv
+attraktiv ↔ unattraktiv;attractive / hấp dẫn;Die Stelle ist attraktiv, weil sie flexible Arbeitszeiten bietet.;Adjektiv
+sportlich ↔ unsportlich;athletic / năng động, thể thao;Sie ist sehr sportlich und fährt jeden Morgen mit dem Rad.;Adjektiv
