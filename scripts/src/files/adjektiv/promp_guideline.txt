@@ -6,12 +6,12 @@ Each line represents one adjective with 4 semicolon-separated fields.
 
 FIELD STRUCTURE (in order):
 1. Front face: adjective and its similar word and opposite (if any)
-2. Back face: English and Vietnamese translation
+2. Back face: English and Vietnamese translation, each on its own row separated by <br/>, with similar word or opposite formatted like the front face
 3. Example sentence
 4. Tag (always "Adjektiv")
 
 EXAMPLE LINE:
-groß ↔ klein;big / lớn;Das Gebäude ist so groß, dass man sich darin leicht verlaufen kann.;Adjektiv
+groß ↔ klein;big ↔ small<br/>lớn ↔ nhỏ;Das Gebäude ist so groß, dass man sich darin leicht verlaufen kann.;Adjektiv
 
 RULES:
 - Use semicolons (;) as field separators - NO EXCEPTIONS
@@ -33,14 +33,17 @@ FIELD 1 — FRONT FACE (adjective + opposite):
   * "fremd"          (no clear antonym)
 
 FIELD 2 — BACK FACE (translation):
-- Format: "English / Vietnamese"
-- Use " / " (space-slash-space) to separate the two translations
+- Format for opposite pairs: "English1 ↔ English2<br/>Vietnamese1 ↔ Vietnamese2"
+- Format for similar pairs: "English1 = English2<br/>Vietnamese1 = Vietnamese2"
+- Format for single words with no pair: "English<br/>Vietnamese"
+- Use <br/> to separate the English row from the Vietnamese row
+- Use the same relation marker as the front face: ↔ for opposites, = for similar words
 - English: simple, common translation in lowercase
 - Vietnamese: standard Vietnamese with diacritics
 - Examples:
-  * "big / lớn"
-  * "happy / hạnh phúc"
-  * "fast / nhanh"
+  * "big ↔ small<br/>lớn ↔ nhỏ"
+  * "chic = elegant<br/>lịch sự, sang trọng = thanh lịch"
+  * "travel-sick<br/>say tàu xe"
 
 FIELD 3 — EXAMPLE SENTENCE:
 - Level: A2–B1 (Elementary to Intermediate)
@@ -75,10 +78,13 @@ FIELD 4 — TAG:
 
 SPECIAL CASES:
 - Adjectives with no antonym: omit the ↔ part entirely
-  Example: "fremd;foreign / xa lạ;Er traf ein fremdes Kind im Park.;Adjektiv"
+  Example: "fremd;foreign<br/>xa lạ;Er traf ein fremdes Kind im Park.;Adjektiv"
+
+- Adjectives with a similar word instead of an opposite: use = on both front face and back face
+  Example: "schick = elegant;chic = elegant<br/>lịch sự, sang trọng = thanh lịch;Zum Abendessen im Restaurant ziehen wir uns etwas schick an.;Adjektiv"
 
 - Adjectives that are also adverbs: use the base form; the example may show adverb use
-  Example: "schnell ↔ langsam;fast / nhanh;Er läuft so schnell, dass niemand ihn einholen kann.;Adjektiv"
+  Example: "schnell ↔ langsam;fast ↔ slow<br/>nhanh ↔ chậm;Er läuft so schnell, dass niemand ihn einholen kann.;Adjektiv"
 
 - Compound antonyms with un-/in- prefix: include the prefixed form
-  Example: "möglich ↔ unmöglich;possible / có thể;Es ist unmöglich, das in einem Tag zu schaffen.;Adjektiv"
+  Example: "möglich ↔ unmöglich;possible ↔ impossible<br/>có thể ↔ không thể;Es ist unmöglich, das in einem Tag zu schaffen.;Adjektiv"
