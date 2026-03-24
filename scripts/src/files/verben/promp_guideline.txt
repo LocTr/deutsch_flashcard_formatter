@@ -19,6 +19,9 @@ FIELD STRUCTURE (in order):
 EXAMPLE LINE:
 können;kann;kannst;kann;können;könnt;können;can;có thể;Ich kann den Text verstehen, obwohl er einige unbekannte Wörter enthält.
 
+SEPARABLE VERB EXAMPLE:
+aus·wählen;wähle aus;wählst aus;wählt aus;wählen aus;wählt aus;wählen aus;choose;chọn;Bitte wählen Sie im Formular die passende Option aus.
+
 RULES:
 - Use semicolons (;) as field separators - NO EXCEPTIONS
 - All 10 fields are required
@@ -60,6 +63,8 @@ EXAMPLE SENTENCE PATTERNS:
 ✗ "Sie müssen arbeiten." (too basic)
 
 SPECIAL CASES:
-- Separable verbs: Use infinitive form in field 1 (e.g., "aufstehen")
+- Separable verbs: Mark the separable prefix in field 1 with a middle dot (·) between prefix and stem
+  * Format: "prefix·stem" (e.g., "auf·stehen", "mit·bringen", "aus·sehen")
+  * Conjugation fields (2–7) use the split form with prefix at the end (e.g., "stehe auf", "bringe mit")
 - Modal verbs: Always include full conjugation paradigm
 - If multiple meanings exist, choose the most common one

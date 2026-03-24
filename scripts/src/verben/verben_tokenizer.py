@@ -33,21 +33,89 @@ class VerbenTokenizer:
     @staticmethod
     def verbenToNodes(verb: Verben) -> list[Node]:
         """Convert Verben dataclass to Node list for HTML rendering."""
-        def conjugated(person: str, word: str) -> Node:
+        def conjugated(person: str, word: str, base: str) -> Node:
+            # Separable verb (e.g. base="aus·sehen", word="siehst aus")
+            if '·' in base:
+                _, stem_word = base.split('·', 1)
+                if stem_word.endswith("en"):
+                    stem = stem_word[:-2]
+                elif stem_word.endswith("n"):
+                    stem = stem_word[:-1]
+                else:
+                    stem = stem_word
+
+                # Split conjugated form: "machst auf" → conj_word="machst", conj_prefix="auf"
+                conj_word, conj_prefix = (word.rsplit(' ', 1) if ' ' in word else (word, ''))
+
+                common_len = 0
+                for i in range(min(len(stem), len(conj_word))):
+                    if stem[i] == conj_word[i]:
+                        common_len += 1
+                    else:
+                        break
+
+                verbstamm = conj_word[:common_len]
+                endung = conj_word[common_len:]
+
+                word_parts: list[Node] = []
+                if verbstamm:
+                    word_parts.append(Text(verbstamm))
+                if endung:
+                    word_parts.append(HighlightColor([Text(endung)]))
+                else:
+                    word_parts.append(Text(conj_word))
+                if conj_prefix:
+                    word_parts.append(Text(' '))
+                    word_parts.append(HighlightColor([Text(conj_prefix)]))
+
+                return SpanElement([
+                    SubtextElement([Text(person)]),
+                    Text(" "),
+                    *word_parts,
+                ])
+
+            # Non-separable verb: derive stem from infinitive (strip -en or -n)
+            if base.endswith("en"):
+                stem = base[:-2]
+            elif base.endswith("n"):
+                stem = base[:-1]
+            else:
+                stem = base
+
+            # Find longest common prefix between stem and conjugated form
+            common_len = 0
+            for i in range(min(len(stem), len(word))):
+                if stem[i] == word[i]:
+                    common_len += 1
+                else:
+                    break
+
+            verbstamm = word[:common_len]
+            endung = word[common_len:]
+
+            word_parts: list[Node] = []
+            if verbstamm:
+                word_parts.append(Text(verbstamm))
+            if endung:
+                word_parts.append(HighlightColor([Text(endung)]))
+            else:
+                # No suffix change — highlight nothing, just show the word as-is
+                word_parts.append(Text(word))
+
             return SpanElement([
                 SubtextElement([Text(person)]),
                 Text(" "),
-                HighlightColor([Text(word)]),
+                *word_parts,
             ])
 
         return [
             Text(verb.base_word),                          # base_word
-            conjugated("ich", verb.conjugation_ich),       # ich
-            conjugated("du", verb.conjugation_du),         # du
-            conjugated("er/sie/es", verb.conjugation_er_sie_es),  # er/sie/es
-            conjugated("wir", verb.conjugation_wir),       # wir
-            conjugated("ihr", verb.conjugation_ihr),       # ihr
-            conjugated("Sie/sie", verb.conjugation_sie_sie),  # Sie/sie
+            conjugated("ich", verb.conjugation_ich, verb.base_word),       # ich
+            conjugated("du", verb.conjugation_du, verb.base_word),         # du
+            conjugated("er/sie/es", verb.conjugation_er_sie_es, verb.base_word),  # er/sie/es
+            conjugated("wir", verb.conjugation_wir, verb.base_word),       # wir
+            conjugated("ihr", verb.conjugation_ihr, verb.base_word),       # ihr
+            conjugated("Sie/sie", verb.conjugation_sie_sie, verb.base_word),  # Sie/sie
             Text(verb.translationEn),                      # translationEn
             Text(verb.translationVi),                      # translationVi
             Text(verb.sample_sentence),                    # sentence
